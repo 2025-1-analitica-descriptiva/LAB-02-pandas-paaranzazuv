@@ -8,7 +8,7 @@ import pandas as pd
 
 def pregunta_01():
 
-    df=pd.read_csv(r"files\input\tbl0.tsv", sep="\t")
+    df=pd.read_csv("files/input/tbl0.tsv", sep="/t")
     tamaño= len(df)
     return tamaño
 

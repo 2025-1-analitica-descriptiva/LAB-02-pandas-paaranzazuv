@@ -9,8 +9,8 @@ import pandas as pd
 
 def pregunta_13():
 
-    df_tbl2= pd.read_csv(r'files\input\tbl2.tsv', sep='\t')
-    df_tbl0= pd.read_csv(r'files\input\tbl0.tsv', sep='\t')
+    df_tbl2= pd.read_csv(r'files/input/tbl2.tsv', sep='/t')
+    df_tbl0= pd.read_csv(r'files/input/tbl0.tsv', sep='/t')
     df= df_tbl2.merge(df_tbl0, left_on='c0', right_on='c0')
     resultado_1= df.groupby('c1')['c5b'].sum()
     return resultado_1
