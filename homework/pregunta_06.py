@@ -7,7 +7,7 @@ librerias de pandas para resolver las preguntas.
 import pandas as pd
 
 def pregunta_06():
-    df = pd.read_csv(r"files/input/tbl1.tsv", sep="/t")
+    df = pd.read_csv("files/input/tbl1.tsv", sep="/t")
     respuesta = df['c4'].unique().tolist()
     lista=[]
     for i in range(len(respuesta)):
