@@ -13,7 +13,7 @@ def pregunta_08():
      df['suma'] = df['c0'] + df['c2']
 
      return df
-print(pregunta_08())
+
 
 """
     Agregue una columna llamada `suma` con la suma de `c0` y `c2` al

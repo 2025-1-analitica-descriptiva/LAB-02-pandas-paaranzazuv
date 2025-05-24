@@ -15,7 +15,7 @@ def pregunta_13():
     resultado_1= df.groupby('c1')['c5b'].sum()
     return resultado_1
 
-print(pregunta_13())    
+ 
 
 """
     Si la columna `c0` es la clave en los archivos `tbl0.tsv` y `tbl2.tsv`,

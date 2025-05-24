@@ -12,7 +12,7 @@ def pregunta_01():
     tamaño= len(df)
     return tamaño
 
-print(pregunta_01())    
+   
 
 """
     ¿Cuál es la cantidad de filas en la tabla `tbl0.tsv`?

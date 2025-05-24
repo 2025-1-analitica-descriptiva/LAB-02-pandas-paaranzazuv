@@ -10,7 +10,7 @@ def pregunta_05():
     df =  pd.read_csv(r"files\input\tbl0.tsv", sep="\t")
     respuesta = df.groupby('c1')['c2'].max()
     return respuesta
-print(pregunta_05())
+
 """
     Calcule el valor máximo de `c2` por cada letra en la columna `c1` del
     archivo `tbl0.tsv`.

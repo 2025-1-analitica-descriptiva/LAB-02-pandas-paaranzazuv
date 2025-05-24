@@ -10,7 +10,6 @@ def pregunta_02():
     df = pd.read_csv(r"files\input\tbl0.tsv", sep="\t")
     columnnas= len(df.columns)
     return columnnas
-print(pregunta_02())
 
 """
     ¿Cuál es la cantidad de columnas en la tabla `tbl0.tsv`?

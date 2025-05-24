@@ -16,7 +16,7 @@ def pregunta_12():
     df = df[["c0", "c5"]]
     return df
 
-print(pregunta_12())
+
 
 """
     Construya una tabla que contenga `c0` y una lista separada por ','

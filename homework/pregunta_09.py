@@ -13,7 +13,7 @@ def pregunta_09():
 
     return df
 
-print(pregunta_09())
+
 """
     Agregue el año como una columna al dataframe que contiene el archivo
     `tbl0.tsv`.

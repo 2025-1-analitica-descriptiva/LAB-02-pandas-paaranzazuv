@@ -12,7 +12,7 @@ def pregunta_04():
     respuesta = df.groupby('c1')['c2'].mean()
     return respuesta
 
-print(pregunta_04())
+
 
 """
     Calcule el promedio de `c2` por cada letra de la `c1` del archivo

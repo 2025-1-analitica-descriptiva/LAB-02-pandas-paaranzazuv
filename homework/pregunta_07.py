@@ -12,7 +12,7 @@ def pregunta_07():
     respuesta = df.groupby('c1')['c2'].sum()
     return respuesta
 
-print(pregunta_07())
+
 
 """"
     Calcule la suma de la `c2` por cada letra de la `c1` del archivo

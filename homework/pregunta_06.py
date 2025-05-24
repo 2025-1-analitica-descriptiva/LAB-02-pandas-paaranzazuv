@@ -16,7 +16,7 @@ def pregunta_06():
     lista.sort()
     return lista
 
-print(pregunta_06())
+
 """
     Retorne una lista con los valores unicos de la columna `c4` del archivo
     `tbl1.csv` en mayusculas y ordenados alfabéticamente.
