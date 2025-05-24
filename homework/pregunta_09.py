@@ -7,7 +7,7 @@ librerias de pandas para resolver las preguntas.
 import pandas as pd
 
 def pregunta_09():
-    df = pd.read_csv("files/input/tbl0.tsv", sep="/t")
+    df = pd.read_csv("files/input/tbl0.tsv", sep="\t")
     df_2 = df["c3"].str.split("-", expand=True)
     df['year'] = df_2[0]
 

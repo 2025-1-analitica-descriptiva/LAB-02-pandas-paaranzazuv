@@ -8,7 +8,7 @@ import pandas as pd
 
 
 def pregunta_04():
-    df = pd.read_csv("files/input/tbl0.tsv", sep="/t")
+    df = pd.read_csv("files/input/tbl0.tsv", sep="\t")
     respuesta = df.groupby('c1')['c2'].mean()
     return respuesta
 
